@@ -5,4 +5,4 @@ When a command is typed,the shell creates a child process that executes the comm
 
 Each forked process is executed as a separate process to execute the command. The command is executed as a separate process with the help of execv().
 
-
+For any error only one error message is showed.
